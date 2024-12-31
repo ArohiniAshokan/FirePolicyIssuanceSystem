@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet1" targetNamespace="http://tempuri.org/DataSet1.xsd" xmlns:mstns="http://tempuri.org/DataSet1.xsd" xmlns="http://tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSet1" msprop:Generator_UserDSName="DataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DataTable1" msprop:Generator_TableClassName="DataTable1DataTable" msprop:Generator_TableVarName="tableDataTable1" msprop:Generator_TablePropName="DataTable1" msprop:Generator_RowDeletingName="DataTable1RowDeleting" msprop:Generator_RowChangingName="DataTable1RowChanging" msprop:Generator_RowEvHandlerName="DataTable1RowChangeEventHandler" msprop:Generator_RowDeletedName="DataTable1RowDeleted" msprop:Generator_UserTableName="DataTable1" msprop:Generator_RowChangedName="DataTable1RowChanged" msprop:Generator_RowEvArgName="DataTable1RowChangeEvent" msprop:Generator_RowClassName="DataTable1Row">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="RISK_LC_SI" msprop:Generator_ColumnVarNameInTable="columnRISK_LC_SI" msprop:Generator_ColumnPropNameInRow="RISK_LC_SI" msprop:Generator_ColumnPropNameInTable="RISK_LC_SIColumn" msprop:Generator_UserColumnName="RISK_LC_SI" type="xs:string" minOccurs="0" />
+              <xs:element name="Scheme" msprop:Generator_ColumnVarNameInTable="columnScheme" msprop:Generator_ColumnPropNameInRow="Scheme" msprop:Generator_ColumnPropNameInTable="SchemeColumn" msprop:Generator_UserColumnName="Scheme" type="xs:string" minOccurs="0" />
+              <xs:element name="Construction" msprop:Generator_ColumnVarNameInTable="columnConstruction" msprop:Generator_ColumnPropNameInRow="Construction" msprop:Generator_ColumnPropNameInTable="ConstructionColumn" msprop:Generator_UserColumnName="Construction" type="xs:string" minOccurs="0" />
+              <xs:element name="Occupancy" msprop:Generator_ColumnVarNameInTable="columnOccupancy" msprop:Generator_ColumnPropNameInRow="Occupancy" msprop:Generator_ColumnPropNameInTable="OccupancyColumn" msprop:Generator_UserColumnName="Occupancy" type="xs:string" minOccurs="0" />
+              <xs:element name="Risk_Class" msprop:Generator_ColumnVarNameInTable="columnRisk_Class" msprop:Generator_ColumnPropNameInRow="Risk_Class" msprop:Generator_ColumnPropNameInTable="Risk_ClassColumn" msprop:Generator_UserColumnName="Risk_Class" type="xs:string" minOccurs="0" />
+              <xs:element name="RISK_ID" msprop:Generator_ColumnVarNameInTable="columnRISK_ID" msprop:Generator_ColumnPropNameInRow="RISK_ID" msprop:Generator_ColumnPropNameInTable="RISK_IDColumn" msprop:Generator_UserColumnName="RISK_ID" type="xs:int" minOccurs="0" />
+              <xs:element name="POL_NET_LC_PREM" msprop:Generator_ColumnVarNameInTable="columnPOL_NET_LC_PREM" msprop:Generator_ColumnPropNameInRow="POL_NET_LC_PREM" msprop:Generator_ColumnPropNameInTable="POL_NET_LC_PREMColumn" msprop:Generator_UserColumnName="POL_NET_LC_PREM" type="xs:double" minOccurs="0" />
+              <xs:element name="POL_VAT_LC_AMT" msprop:Generator_ColumnVarNameInTable="columnPOL_VAT_LC_AMT" msprop:Generator_ColumnPropNameInRow="POL_VAT_LC_AMT" msprop:Generator_ColumnPropNameInTable="POL_VAT_LC_AMTColumn" msprop:Generator_UserColumnName="POL_VAT_LC_AMT" type="xs:string" minOccurs="0" />
+              <xs:element name="POL_GROSS_LC_PREM" msprop:Generator_ColumnVarNameInTable="columnPOL_GROSS_LC_PREM" msprop:Generator_ColumnPropNameInRow="POL_GROSS_LC_PREM" msprop:Generator_ColumnPropNameInTable="POL_GROSS_LC_PREMColumn" msprop:Generator_UserColumnName="POL_GROSS_LC_PREM" type="xs:string" minOccurs="0" />
+              <xs:element name="POL_LC_SI" msprop:Generator_ColumnVarNameInTable="columnPOL_LC_SI" msprop:Generator_ColumnPropNameInRow="POL_LC_SI" msprop:Generator_ColumnPropNameInTable="POL_LC_SIColumn" msprop:Generator_UserColumnName="POL_LC_SI" type="xs:double" minOccurs="0" />
+              <xs:element name="POL_TO_DT" msprop:Generator_ColumnVarNameInTable="columnPOL_TO_DT" msprop:Generator_ColumnPropNameInRow="POL_TO_DT" msprop:Generator_ColumnPropNameInTable="POL_TO_DTColumn" msprop:Generator_UserColumnName="POL_TO_DT" type="xs:string" minOccurs="0" />
+              <xs:element name="POL_FM_DT" msprop:Generator_ColumnVarNameInTable="columnPOL_FM_DT" msprop:Generator_ColumnPropNameInRow="POL_FM_DT" msprop:Generator_ColumnPropNameInTable="POL_FM_DTColumn" msprop:Generator_UserColumnName="POL_FM_DT" type="xs:string" minOccurs="0" />
+              <xs:element name="Occupation" msprop:Generator_ColumnVarNameInTable="columnOccupation" msprop:Generator_ColumnPropNameInRow="Occupation" msprop:Generator_ColumnPropNameInTable="OccupationColumn" msprop:Generator_UserColumnName="Occupation" type="xs:string" minOccurs="0" />
+              <xs:element name="POL_ASSR_ADDRESS" msprop:Generator_ColumnVarNameInTable="columnPOL_ASSR_ADDRESS" msprop:Generator_ColumnPropNameInRow="POL_ASSR_ADDRESS" msprop:Generator_ColumnPropNameInTable="POL_ASSR_ADDRESSColumn" msprop:Generator_UserColumnName="POL_ASSR_ADDRESS" type="xs:string" minOccurs="0" />
+              <xs:element name="POL_ASSR_NAME" msprop:Generator_ColumnVarNameInTable="columnPOL_ASSR_NAME" msprop:Generator_ColumnPropNameInRow="POL_ASSR_NAME" msprop:Generator_ColumnPropNameInTable="POL_ASSR_NAMEColumn" msprop:Generator_UserColumnName="POL_ASSR_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="POL_NO" msprop:Generator_ColumnVarNameInTable="columnPOL_NO" msprop:Generator_ColumnPropNameInRow="POL_NO" msprop:Generator_ColumnPropNameInTable="POL_NOColumn" msprop:Generator_UserColumnName="POL_NO" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
